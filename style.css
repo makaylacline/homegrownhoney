@@ -1,0 +1,416 @@
+/************************************************************************************
+CSS RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+body {
+    background-color: rgb(244,244,244);
+}
+
+/************************************************************************************
+HEADER & NAV
+*************************************************************************************/
+
+.active {
+    color: rgb(182,201,175)
+}
+
+.GIF {
+  position: relative;
+  width: 100%;
+  z-index:100;
+  margin-bottom: -310px;
+  
+}
+       
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    align-self: center;
+    position: relative;
+    top: 30px;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(49,45,39,.85);
+    padding: 15px 10px 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    
+}
+
+nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(224,224,223);
+    padding-right: 60px;
+
+}
+
+a:hover {
+    color: rgb(118,90,119);
+}
+
+
+
+.call {
+    text-decoration: none;
+    font-family:'Work Sans', sans-serif;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: rgb(118,90,119);
+    padding:3px 10px;
+    margin-top: -125px;
+    text-align: center;
+    background-color:rgba(171,171,171, .38)
+}
+
+article a:hover {
+    color: white;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/************************************************************************************
+BODY
+*************************************************************************************/
+
+.green {
+     background-color: rgb(182,201,175);
+     padding:200px 20px 200px 20px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+}
+.body-section {
+    font-family:'cookie';
+    position: absolute;
+    width: 100%;
+    font-size: 55px;
+    color: rgb(100,80,68);
+    margin-top: -150px;
+    text-align: center;
+    margin-left: -135px;
+}
+
+h6 {
+    font-size: 40px;
+    font-family:'Work Sans', sans-serif;
+    margin-left: 430px;
+    margin-top: -55px;
+    text-transform: uppercase;
+}
+
+article {
+    margin-top: 30px;
+    align-content: center;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 2px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.scoot {
+   margin-left: 465px; 
+}
+
+.no-break {
+    margin-bottom: -120px;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+
+footer {
+    background-color:  rgba(49,45,39, .85);
+    margin-top: 10px;
+    font-family:'Work Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(244,244,244);
+}
+
+ul {
+    list-style: none;
+    padding-bottom:20px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+
+form {
+    text-align:right;
+    padding-right: 15px;
+    margin-top: -110px;
+    padding-bottom: 100px;
+    font-size: 15px;
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 3px 20px 3px 75px;
+}
+
+
+/************************************************************************************
+WHO WE ARE
+*************************************************************************************/
+
+.wwr {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  position: absolute;
+  width: 635px;
+  text-align: left;
+  word-spacing: 2px;
+  margin-left: 220px;
+}
+
+.mid {
+    padding: 200px 50px 180px 50px;
+    background-color: rgb(182,201,175);
+}
+
+.weare {
+    font-family:'cookie',cursive;
+    position: absolute;
+    width: 100%;
+    font-size: 55px;
+    color: rgb(100,80,68);
+    margin-top: -150px;
+    text-align: center;
+    margin-left: -110px;
+}
+
+.left{
+    margin-right: 200px;
+    font-size: 40px;
+    font-family:'Work Sans', sans-serif;
+    text-transform: uppercase;
+    margin-top: -55px;
+    margin-left: 430px;
+}
+
+.dif {
+    font-family:'cookie', cursive;
+    position: absolute;
+    width: 100%;
+    font-size: 46px;
+    color: rgb(100,80,68);
+    text-align: right;
+    margin-left: -410px;
+    font-weight: 500;
+}
+
+.sig {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 18px;
+    margin-top: 80px;
+}
+
+.real {
+    margin-bottom: 20px;
+}
+
+/************************************************************************************
+CATERING
+*************************************************************************************/
+
+.space {
+    margin-right: -45px;
+}
+
+.flexsearch {
+    margin-top: 100px;
+}
+
+.search {
+    background-color: rgb(208,174,138);
+     padding:10px 20px 40px 20px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+}
+
+h1 {
+    color: rgba(49,45,39, .98);
+    text-align: center;
+    padding-top: 20px;
+    font-family:'cookie', cursive;
+    position: absolute;
+    width: 100%;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.flexsearch--input {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 8px 60px 8px 60px;
+   margin-top: 100px;
+   margin-left: 330px;
+   margin-right: 330px;
+}
+
+.mid-c {
+     padding: 200px 50px 70px 50px;
+    background-color: rgb(182,201,175);
+}
+
+
+/************************************************************************************
+MENU
+*************************************************************************************/
+
+.menu {
+     z-index: 100;
+     background-color: rgb(182,201,175);
+     padding:70px 20px 70px 20px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.menu,a {
+    text-decoration: none;
+    z-index: 100;
+}
+
+.mu {
+    font-family:'Work Sans', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:rgba(49,45,39, .98);
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.title {
+    font-family: 'Work Sans', sans-serif;
+    text-transform:uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(49,45,39,.85);
+}
+.cost {
+    font-size: 20px;
+    font-family:'Work Sans', sans-serif;
+    margin-left: 430px;
+    margin-top: -20px;
+    font-weight: 1000;
+    color: rgba(49,45,39,.85);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.det {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: rgb(182,201,175);
+}
+
+.dec {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.large {
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: rgb(100,80,68);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 20px 10px 20px 20px;
+    padding: 100px 0 10px 0;
+    line-height: 20px;
+    align-content: center;
+}
+
+.costr {
+    font-size: 20px;
+    font-family:'Work Sans', sans-serif;
+    margin-left: 430px;
+    margin-top: -20px;
+    font-weight: 1000;
+    color: rgba(49,45,39,.85);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

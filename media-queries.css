@@ -1,0 +1,495 @@
+
+/************************************************************************************
+larger than 1362
+*************************************************************************************/
+@media screen and (min-width:1362px) {
+    
+    .dif {
+        margin-left: -600px;
+    }
+    
+}
+
+/************************************************************************************
+smaller than 960
+*************************************************************************************/
+@media screen and (max-width: 960px){
+.mu {
+        font-size: 20px;
+    }
+    
+.cost {
+        margin-left: 300px;
+    }
+    
+.costr {
+        margin-left: 300px;
+    }
+    
+    .dec {
+        padding: 20px;
+        margin:20px;
+    }
+}
+
+/************************************************************************************
+smaller than 918
+*************************************************************************************/
+
+@media screen and (max-width: 918px) {
+    
+.center{
+position:static;
+width:100%;
+height: 100%;
+}
+}
+
+/************************************************************************************
+smaller than 900
+*************************************************************************************/
+
+@media screen and (max-width: 900px) {
+    .dec {
+        width: 600px;
+    }
+}
+    
+ /************************************************************************************
+smaller than 880
+*************************************************************************************/
+
+@media screen and (max-width:880px)  {
+    
+    .dif {
+        margin-left: -300px;
+    }
+    
+} 
+    
+/************************************************************************************
+smaller than 830
+*************************************************************************************/
+
+@media screen and (max-width:830px) {
+    nav {
+    height: 25px;
+    margin-top: -150px;
+}
+
+.push-left {
+  margin: -10px 0 10px 0;
+  padding-top: 10px;
+}
+
+.push-right {
+    margin: -10px 0 10px 0;
+  padding-top: 10px;
+}
+
+.GIF { 
+  margin-bottom: 30px;
+  width: 75%;
+  justify-content: flex-start;
+  display: flex;
+  margin-left: -140px;
+}
+
+.mu {
+    font-size: 15px;
+    }
+
+.dec {
+        width: 500px;
+    }
+}
+
+/************************************************************************************
+smaller than 702
+*************************************************************************************/
+
+@media screen and (max-width:702px) {
+    
+    .mu{
+        position: static;
+        padding:20px;
+        align-content: center;
+        font-size: 12px;
+    }
+    
+    .menu {
+        padding: 20px;
+    }
+   
+    .cost {
+        margin-left: 250px;
+    }
+    
+    .costr {
+        margin-left: 250px;
+    }
+    
+    .costr {
+        margin-left: 250px;
+    }
+    .dec {
+        width: 400px;
+    }
+    
+    .scoot {
+        margin-left: 450px;
+    }
+    
+    .left {
+         margin-left: 450px;
+    }
+    
+    .dif {
+        margin-left: -200px;
+    }
+    
+    .left {
+        margin-left: 400px;
+    }
+    
+
+}
+
+/************************************************************************************
+smaller than 630
+*************************************************************************************/
+
+@media screen and (max-width:630px) {
+    .scoot {
+        margin-left: 420px;
+    }
+    p {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: left;
+  margin-top: -60px;
+  word-spacing: 2px;
+  display: flex;
+    }
+    
+    .left {
+        margin-left: 370px;
+    }
+    
+    nav {
+        padding: 40px 10px;
+    }
+    
+    .push-left {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    .push-right {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    .dif {
+        margin-left: -200px;
+    }
+    
+}
+
+/************************************************************************************
+smaller than 580
+*************************************************************************************/
+
+@media screen and (max-width:580px) {
+    
+    .cost {
+        text-align: left;
+        margin-left: -205px;
+    }
+    
+    .costr {
+        margin-left: 100px;
+    }
+    .scoot {
+        margin-left:385px;
+    }
+    
+    .left {
+        margin-left: 350px;
+    }
+    
+    .mu{
+        position: static;
+        padding:15px;
+        align-content: center;
+        font-size: 12px;
+    
+    
+}
+    
+/************************************************************************************
+smaller than 563
+*************************************************************************************/
+
+@media screen and (max-width:563px) {
+    
+    .real {
+        width: 470px;
+    }
+    
+}
+
+/************************************************************************************
+smaller than 542
+*************************************************************************************/
+
+@media screen and (max-width:542px) {
+    
+    .costr {
+        margin-left: 115px;
+    }
+    
+    .cost {
+        margin-left: -180px;
+    }
+    
+    .scoot {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    p{
+        font-size: 14px;
+        width: 275px;
+        line-height: normal;
+        margin-top: 5px;
+    }
+    
+    .body-section {
+        margin-left: -10px;
+    }
+    
+    .GIF {
+        margin-bottom: 75px;
+    }
+    
+    .rwd-line {
+        display: block;
+    }
+    
+    nav {
+        padding: 40px 10px;
+    }
+    
+    .push-left {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    .push-right {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    h4{
+        font-size: 20px;
+    }
+    
+    .dif {
+        margin-left: -150px;
+        margin-top: 10px;
+    }
+    
+    .left {
+        margin-left: 320px;
+    }
+    
+    .mu{
+        position: static;
+        padding:15px;
+        align-content: center;
+        font-size: 12px;
+        margin-left:-10px; }
+    
+    .real {
+        margin-top: -60px;
+        width: 400px;
+        line-height: 25px
+    }
+        
+    .sig {
+        margin-top: 75px;
+    }
+    
+    .space {
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    
+    .weare {
+        margin-left: -60px
+    }
+}
+
+    
+/************************************************************************************
+smaller than 513
+*************************************************************************************/
+
+@media screen and (max-width:513px) {
+        
+    .costr {
+        margin-left: 160px;
+    }
+    
+    .cost {
+        margin-right: -27px;
+    }
+    
+    p {
+        line-height: 25px;
+    }
+   
+    .h1{
+        width: 300px;
+        line-height: 40px;
+    }
+    
+    .search {
+        padding-top: 20px;
+    }
+    
+    .flexsearch--input {
+        margin-top: 150px;
+        padding: 10px 100px;
+    }
+}
+  
+    
+/************************************************************************************
+smaller than 501
+*************************************************************************************/
+
+@media screen and (max-width:501px) {
+        
+    .left {
+        margin-left: 305px;
+    } 
+    
+    .real {
+        width: 300px;
+        font-size: 15px;
+        line-height: 25px
+    }
+        
+}
+    
+    
+/************************************************************************************
+smaller than 456
+*************************************************************************************/
+
+@media screen and (max-width:456px) {
+    
+    .GIF {
+        margin-bottom: 100px;
+        margin-left:-110px;
+    }
+    
+    .mu{
+        position: static;
+        padding:12px;
+        align-content: center;
+        font-size: 12px;
+        margin-left: -15px;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+    
+    nav {
+        padding: 10px;
+    }
+    
+    .push-left {
+        font-size: 10px;
+        padding: 15px;
+    }
+    
+    .push-right {
+        font-size: 10px;
+        padding: 15px;
+    }
+    
+    .dec{
+        width: 300px;
+        margin-left: -20px;
+    }
+}
+    
+    /************************************************************************************
+smaller than 400
+*************************************************************************************/
+
+    @media screen and (max-width:400px) {
+        
+        .costr {
+            margin-left: 100px;
+        }
+        
+        .cost {
+            margin-left: -155px;
+        }
+        
+        
+        .GIF {
+            margin-left: -100px;
+            margin-bottom: 110px;
+        }
+        
+        .left {
+            margin-left: 260px;
+        }
+        
+        .mu {
+           padding: 12px;
+           font-size: 10px;
+        }
+       
+        .center {
+            width: 0%;
+        }
+
+        .down {
+          padding: 5px 20px 5px 20px;
+          margin: 40px
+          
+        }
+        
+        nav {
+            margin-bottom: 70px;
+        }
+        
+        .push-left {
+        font-size: 10px;
+        padding: 15px;
+        margin-right: -10px;
+    }
+    
+        .push-right {
+        font-size: 10px;
+        padding: 15px;
+        margin-left: 10px
+        }
+        
+        .GIF {
+            width: 100%;
+            margin-left: 22px;
+        }
+        
+        .weare {
+            margin-left: -50px;
+        }
+    }
+    
